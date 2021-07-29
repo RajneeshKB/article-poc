@@ -1,0 +1,21 @@
+.article-detail-container {
+  border: 1px solid;
+  border-radius: 6px;
+  padding: 8px;
+  margin: 15px;
+}
+
+.article-detail-container__article-head {
+  display: flex;
+  justify-content: space-between;
+}
+.article-detail-container__article-head h4 {
+  margin: 0;
+  width: 80%;
+}
+.article-detail-container__comment-container {
+  margin-top: 20px;
+  list-style: none;
+  text-align: right;
+  font-size: smaller;
+}

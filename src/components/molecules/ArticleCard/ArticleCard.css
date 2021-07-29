@@ -1,0 +1,29 @@
+.story-card {
+  border: 1px solid;
+  border-radius: 6px;
+  width: 33%;
+  height: 180px;
+  padding: 6px;
+  box-sizing: border-box;
+  background-color: #fafad2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  /* cursor: pointer; */
+}
+
+.story-card p {
+  margin: 0;
+}
+
+.story-card__posted-by {
+  text-align: right;
+  margin-right: 4px;
+}
+@media only screen and (max-width: 600px) {
+  .story-card {
+    width: 50%;
+    height: 200px;
+  }
+}

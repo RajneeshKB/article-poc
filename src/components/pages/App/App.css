@@ -1,0 +1,36 @@
+.app {
+  padding: 8px;
+  box-sizing: border-box;
+  position: relative;
+  height: 100vh;
+}
+.app__header {
+  background-color: #f5f;
+  height: 50px;
+}
+.app__header h2 {
+  margin: 0;
+  text-align: left;
+  padding: 11px;
+}
+.app__main {
+  height: 86%;
+  overflow-y: scroll;
+}
+.app__footer {
+  position: absolute;
+  width: 98.7%;
+  text-align: center;
+  background: lightgray;
+  height: 40px;
+  bottom: 0;
+}
+.app__footer p {
+  margin: 0;
+  line-height: 2;
+}
+.loading {
+  height: 100%;
+  line-height: 25;
+  text-align: center;
+}
